@@ -11,7 +11,7 @@ export class ChildComponent implements OnInit {
 array:any=[]
 
 
-  constructor() { }
+constructor() { }
 
   ngOnInit(): void {
   }
@@ -25,3 +25,4 @@ array:any=[]
   }
 
 }
+
