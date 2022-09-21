@@ -1,5 +1,5 @@
 <!-- <p>parent works!</p> -->
-<div>Todolist</div>
+<!-- <div>Todolist</div>
 <div class="input">
     <label for="">Enter your Task</label>
     <input type="text" name="task" [(ngModel)]="Ntask">
@@ -8,5 +8,12 @@
 </div>
 <ng-container *ngFor="let task of tasklist">
     <app-child [passvalue]="task"></app-child>
-</ng-container>
-
+</ng-container> -->
+<!-- ------------------------------------------------------------- -->
+<div>To do list</div>
+<div class="input">
+    <label for="">Enter your Task</label>
+    <input type="text" name="task" [(ngModel)]="Ntask">
+    <button type="button" (click)="add()"> submit</button>
+    
+</div>
